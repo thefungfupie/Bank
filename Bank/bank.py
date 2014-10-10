@@ -12,4 +12,6 @@ class BankAccount:
 		self.balance += amount
 		return self.balance
 
-
+unikaAccount = BankAccount(4)
+unikaAccount.deposit(27)
+print unikaAccount.balance
